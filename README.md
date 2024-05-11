@@ -9,7 +9,7 @@
 - [Features](#features)
 - [Data Sources](#data-sources)
 - [Usage](#usage)
-- [DAX Formulas](#dax-formulas)
+- [DAX Formulas Used in Measures](#dax-formulas-used-in-measures)
 - [Contributing](#contributing)
 - [License](#license)
 - [Authors](#authors)

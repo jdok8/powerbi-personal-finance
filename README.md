@@ -5,16 +5,22 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Purpose of the Project](#purpose-of-the-project)
 - [Features](#features)
 - [Data Sources](#data-sources)
 - [Usage](#usage)
 - [DAX Formulas](#dax-formulas)
 - [Contributing](#contributing)
 - [License](#license)
+- [Authors](#authors)
 
 ## Introduction
 
 This Power BI project enables comprehensive analysis of family expenses by consolidating data from multiple sources, including CSV files from different bank accounts. The report offers insights into account balances, income, expenses, and investment developments over time.
+
+## Purpose of the Project
+
+This Power BI project was created for educational purposes to demonstrate data visualization techniques in Power BI. All the data presented in the charts represent synthetic financial transactions and is in Danish Krone (DKK) unless indicated otherwise. 
 
 ## Features
 
@@ -22,7 +28,7 @@ This Power BI project enables comprehensive analysis of family expenses by conso
   
 - **Account Balance Distribution:** Visualizes the distribution of account balances for pension, current, investment, and savings accounts.
 
-- **Income and Expenses Analysis:** Offers insights into income and expenses distribution over different time periods, facilitating trend analysis.
+- **Income and Expenses Analysis:** Offers insights into income and expenses distribution over different time periods.
 
 - **Expense Categorization:** Breaks down expenses by category, enabling users to identify spending patterns and areas for optimization.
 
@@ -50,10 +56,6 @@ Navigate through different pages to explore various analyses and insights provid
 
 
 ## DAX Formulas Used in Measures
-
-### Overview
-
-The following DAX formulas are used in this Power BI project to perform calculations and generate insights:
 
 **1. Expenses**
 
@@ -218,3 +220,7 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Authors
+
+- [Jan Dokoupil](https://github.com/jdok8)

@@ -163,7 +163,7 @@ The net income in Danish Krone (DKK):
 
 **3. Other**
 
-The sum of transactions in Danish Krone (DKK) for the last month
+The sum of transactions in Danish Krone (DKK) for the last month:
 
     sum_transaction_in_DKK_last_month = 
     TOTALMTD(

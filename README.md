@@ -54,6 +54,43 @@ If new CSV files are added with transactions, refresh the data in Power BI to up
 
 Navigate through different pages to explore various analyses and insights provided by the report.
 
+## DAX Formulas Used in Calculated Columns
+
+Transaction amounts conversion from various currencies to Danish Krone (DKK) based on the currency ID and corresponding exchange rates:
+
+    transaction_in_DKK = 
+    SWITCH(
+    expenditures[currency_id],
+    1, expenditures[transaction] / RELATED(exchange_rates[CZK]) * RELATED(exchange_rates[DKK]),
+    2, expenditures[transaction] * RELATED(exchange_rates[DKK]),
+    4, expenditures[transaction] / RELATED(exchange_rates[GBP]) * RELATED(exchange_rates[DKK]),
+    5, expenditures[transaction] / RELATED(exchange_rates[USD]) * RELATED(exchange_rates[DKK]), 
+    6, expenditures[transaction] / RELATED(exchange_rates[BTC]) * RELATED(exchange_rates[DKK]),
+    expenditures[transaction]
+    )
+
+Classifying transactions into "Internal transfer," "Initial account balance," "Expense," or "Income" based on their original type and amount:
+
+    transaction_type = 
+    IF(
+    expenditures[transaction_type_org] = "Internal transfer", "Internal transfer", 
+    IF(expenditures[transaction_type_org] = "Initial account balance", "Initial account balance", 
+    IF(expenditures[transaction_type_org] = "Income/Expense" && expenditures[transaction] < 0, "Expense", 
+    IF(expenditures[transaction_type_org] = "Income/Expense" && expenditures[transaction] > 0, "Income",
+    "null"
+    ))))
+
+Creating a Date table:
+
+    dates = CALENDARAUTO()
+
+    year = YEAR(dates[date])
+
+    month = FORMAT(dates[date], "mmmm")
+
+    month_num = MONTH(dates[date])
+
+    day = DAY(dates[date])
 
 ## DAX Formulas Used in Measures
 

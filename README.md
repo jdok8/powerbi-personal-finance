@@ -9,6 +9,7 @@
 - [Features](#features)
 - [Data Sources](#data-sources)
 - [Usage](#usage)
+- [DAX Formulas Used in Calculated Columns](#dax-formulas-used-in-calculated-columns)
 - [DAX Formulas Used in Measures](#dax-formulas-used-in-measures)
 - [Contributing](#contributing)
 - [License](#license)

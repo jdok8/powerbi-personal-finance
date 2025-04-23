@@ -1,0 +1,5 @@
+﻿Pohyby na účtu  dne 19.03.2025 20:57:20.
+
+číslo účtu;datum zaúčtování;částka;měna;zůstatek;číslo protiúčtu;kód banky protiúčtu;jméno protistrany;adresa protistrany;konstantní symbol;variabilní symbol;specifický symbol;označení operace;název trvalého příkazu;vlastní poznámka;zpráva;kategorie;původní transakce;kurz;E2E identifikace;reference plátce;původní plátce;konečný příjemce;ID transakce
+1111/1111;15.01.2025;-3000,00;CZK;541,41;000-000;0010;;;;;;Odchozí úhrada;;;sova;Odchozí nezatříděná;;;;;;;transhist-v-2025-01_f7fdc97zb7e1edcc1b6zzz
+1111/1111;08.01.2025;3000,00;CZK;3541,41;889946043;0800;Mgr. Jan;;0;;;Příchozí úhrada;;;zzz;Příjem;;;;;;;transhist-v-2025-01_513azzc99f313e1b797

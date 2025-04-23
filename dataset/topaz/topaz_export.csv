@@ -1,0 +1,3 @@
+Id,Bogføringsdag,Handelsdag,Valørdag,Depot,Transaktionstype,Værdipapirer,ISIN,Antal,Kurs,Rente,Samlede afgifter,Valuta,Beløb,Valuta,Indkøbsværdi,Valuta,Resultat,Valuta,Totalt antal,Saldo,Vekslingskurs,Transaktionstekst,Makuleringsdato,Notanummer,Verifikationsnummer,Kurtage,Valuta,Middelkurs,Oprindelig rente
+1111,31/03/2025,31/03/2025,01/04/2025,2222,KREDITRENTE,,,,,,,,0.1,DKK,,,,,,"108,3",,,,,3333,,,,
+1111,04/03/2025,04/03/2025,04/03/2025,2222,INDBETALING,,,,,,,,2400,DKK,,,,,,2400,,PENGE TIL PENSION,,,3333,,,,

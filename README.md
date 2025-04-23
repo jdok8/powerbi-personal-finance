@@ -71,7 +71,7 @@ Transaction amounts conversion from various currencies to Danish Krone (DKK) bas
 	    transactions[transaction]
     )
 
-Classifying transactions into "Internal transfer," "Initial account balance," "Expense," or "Income" based on their original type and amount:
+Classifying transactions into "Internal transfer," "initial account balance," "expense," or "income" based on their original type and amount:
 
     transaction_type = 
     IF(
@@ -234,7 +234,7 @@ Creating a Date table:
 **2. Income, Balance, Investments**
 
     income_in_DKK = 
-	-- Calculates the total income (Příjem) in DKK (transactions converted to DKK using historical exchange rates) 
+	-- Calculates the total income in DKK (transactions converted to DKK using historical exchange rates) 
 	-- Used for fx. visualizations comparing income and expenses  
 	
 	SUMX(  
